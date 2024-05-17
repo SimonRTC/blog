@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Hugo package
-        run: apt install hugo
+        run: sudo apt install hugo
       - name: Build static elements 
         run: hugo -v
       - name: Archive static elements 
