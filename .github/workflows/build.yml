@@ -1,0 +1,21 @@
+name: Build
+on:
+  push:
+  pull_request:
+    branches:
+      - master
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Hugo package
+        run: apt install hugo
+      - name: Build static elements 
+        run: hugo -v
+      - name: Archive static elements 
+        uses: actions/upload-artifact@v4
+        with:
+          name: blog
+          path: public
