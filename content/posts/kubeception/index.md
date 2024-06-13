@@ -44,7 +44,7 @@ I've choose to use Helm (for every components deployed inside of the target clus
 So basically:
 - A cloud provider
 - An administration cluster
-- A pretty good knowledge of Ansible, Helm and a programming langladge (such Golang or Python).
+- A pretty good knowledge of Ansible, Helm and a programming languages (such Golang or Python).
 
 ---
 
