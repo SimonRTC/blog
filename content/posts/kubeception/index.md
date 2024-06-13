@@ -9,6 +9,8 @@ categories = ['Kubernetes', 'Research & Development', 'Containers']
 
 ![kubernetes](images/k8s.png)
 
+Official GitHub repository: [github.com/SimonRTC/kubeception](https://github.com/SimonRTC/kubeception)
+
 ### What's "Kubeception"?
 
 A "Kubeception" cluster refers to a setup where Kubernetes is run within Kubernetes, essentially nesting one Kubernetes instance inside another. The purpose of such a cluster typically revolves around several key aspects:
